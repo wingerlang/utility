@@ -1,101 +1,103 @@
 /*
  *  Jeneral.css
  *  Version 1.1
- * 
+ *
+ * Revision 3: 29.01.2013: Refined and uploaded to github: https://github.com/wingerlang/utility/css/
  * Revision 2: (20 dec 2012): Completely rewritten
  * Revision 1: First version (early 2012)
- * 
- * 
  *
+ * 
+ * 
  */
 
-/* ===============  [ MISC ] ============ */
+ /* ===============  [ MISC ] ============ */
 
-	img {border: none;}
-	.hidden{display:none;}
-	.invisible, .invis {visibility:hidden;}
-	.border{border: 1px solid red;}
-	.left, .fleft	{float:left;}
-	.center, .c {margin:0 auto;}
-	.right, .fright{float:right;}
-	.clear{clear:both;}
-	.compressed {margin-bottom: 5px}
+ img {border: none;}
+ .hidden{display:none; visibility: hidden}
+ .invisible, .invis {visibility:hidden;}
+ .border{border: 1px solid red;}
 
-	.beta:after {
-		content:"BETA";
-		color: #ffe3e3;
-		background-color: #F00;
-		border: 1px solid #666;
-		padding: 0 5px;
-		margin-left: 10px;
-		opacity: .7;
-	}
+ .left, .fleft	{float:left;}
+ .center, .c {margin:0 auto;}
+ .right, .fright{float:right;}
 
-/* ===============  [ SIZES ] ============ */
-	
-	.w90{width:90%;}
-	.w80{width:80%;}
-	.w70{width:70%;}
+ .clear 	{clear:both;}
+ .compressed {margin-bottom: 5px}
 
-/* ===============  [ COLORS ] ============ */
+ .beta:after {
+ 	content:"BETA";
+ 	color: #ffe3e3;
+ 	background-color: #F00;
+ 	border: 1px solid #666;
+ 	padding: 0 5px;
+ 	margin-left: 10px;
+ 	opacity: .7;
+ }
 
-	.bggreen{background-color:#B6D7A8;}
-	.bgorange{background-color:#F9CB9C;}
-	.bgred{background-color:#E06666;}
+ /* ===============  [ SIZES ] ============ */
 
-	.green{color:green;}
-	.red{color:red;}
-	.blue{color:blue;}
-	.brown{color: brown;}
-	.lightgreen{color: lightgreen;}
-	.darkgreen{color: darkgreen;}
-	.lightred{color:#FF6347;}
+ .w90{width:90%;}
+ .w80{width:80%;}
+ .w70{width:70%;}
 
-/* ===============  [ TEXTS ] ============ */
+ /* ===============  [ COLORS ] ============ */
 
-	.tl, .tleft {text-align:left;}
-	.tc, .tcenter {text-align:center;}
-	.tr, .tright {text-align:right;}
+ .bggreen{background-color:#B6D7A8;}
+ .bgorange{background-color:#F9CB9C;}
+ .bgred{background-color:#E06666;}
 
-	.u, .underline {text-decoration:underline;}
-	.s, .strike {text-decoration:line-through;}
-	.b, .bold {font-weight:bold;}
-	.i, .italic, .em {font-style:italic;}
-	.smaller {font-size:.8em;}
-	.bigger {font-size:1.2em;}
-	.transparent {opacity:0.50;}
+ .green{color:green;}
+ .red{color:red;}
+ .blue{color:blue;}
+ .brown{color: brown;}
+ .lightgreen{color: lightgreen;}
+ .darkgreen{color: darkgreen;}
+ .lightred{color:#FF6347;}
 
+ /* ===============  [ TEXTS ] ============ */
 
-/* ===============  [ TEXTS ] ============ */
-p	a[target="_blank"] {
-		background: url(img/ext.png) center right no-repeat;
-		padding-right:15px;
-	}
+ .tl, .tleft {text-align:left;}
+ .tc, .tcenter {text-align:center;}
+ .tr, .tright {text-align:right;}
 
-/* Every specified elements containing a title is marked with an added underline */
-span[title],a[title],em[title],strong[title]
-{text-decoration:underline;} 
+ .u, .underline {text-decoration:underline;}
+ .s, .strike {text-decoration:line-through;}
+ .b, .bold {font-weight:bold;}
+ .i, .italic, .em {font-style:italic;}
+ .smaller {font-size:.8em;}
+ .bigger {font-size:1.2em;}
+ .transparent {opacity:0.50;}
 
 
-/* ===============  [ TABLES ] ============ */
+ /* ===============  [ TEXTS ] ============ */
+ p	a[target="_blank"] {
+ 	background: url(img/ext.png) center right no-repeat;
+ 	padding-right:15px;
+ }
 
-th{
-	background-color:lightgrey;
-	font-weight:bold;
-	font-size:1.1em;
-}
+ /* Every specified elements containing a title is marked with an added underline */
+ span[title],a[title],em[title],strong[title]
+ {text-decoration:underline;} 
 
-table {
-  border-collapse: collapse; /* 'cellspacing' equivalent */
-	font-size:.9em;
-	line-height:1em;
-	border:1px solid silver;
-}
+ /* ===============  [ TABLES ] ============ */
+
+ th{
+ 	background-color:lightgrey;
+ 	font-weight:bold;
+ 	font-size:1.1em;
+ }
+
+ table {
+ 	border-collapse: collapse; /* 'cellspacing' equivalent */
+ 	font-size:.9em;
+ 	line-height:1em;
+ 	border:1px solid silver;
+ }
  td, th{
-  padding:.3em .7em; /* 'cellpadding' equivalent */
-}
+ 	padding:.3em .7em; /* 'cellpadding' equivalent */
+ }
 
-tr:nth-child(2n){background-color:#EDEDED;}
-tr:nth-child(2n+1):hover{background-color:#FAFAFA;}
-tr:nth-child(10n+1){border-bottom:1px solid silver;}
-tr:hover{border:1px solid silver}
+ tr:nth-child(2n){background-color:#EDEDED;}
+ tr:nth-child(2n+1):hover{background-color:#FAFAFA;}
+ tr:nth-child(10n+1){border-bottom:1px solid silver;}
+ tr:hover{border:1px solid silver}
